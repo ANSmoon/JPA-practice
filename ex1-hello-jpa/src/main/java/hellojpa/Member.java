@@ -19,6 +19,7 @@ public class Member {
     private Long id;
     
 //    @Column(name = "username") // Column명도 명시 가능
+//    @Column(unique = true, length = 20)
     private String name;
 
     public Long getId() {
